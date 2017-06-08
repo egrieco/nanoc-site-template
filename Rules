@@ -8,10 +8,10 @@ end
 # using the :kramdown filter. It is commented out by default, because kramdown
 # is not bundled with Nanoc or Ruby.
 #
-#compile '/**/*.md' do
-#  filter :kramdown
-#  layout '/default.*'
-#end
+compile '/**/*.md' do
+ filter :kramdown
+ layout '/default.*'
+end
 
 compile '/**/*.haml' do
  filter :haml
