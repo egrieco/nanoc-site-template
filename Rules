@@ -25,4 +25,5 @@ compile '/**/*' do
   write item.identifier.to_s
 end
 
+layout '/**/*.haml', :haml, format: :html5, encoding: 'utf-8'
 layout '/**/*', :erb
