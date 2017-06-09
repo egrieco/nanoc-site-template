@@ -6,6 +6,9 @@ gem 'nanoc'
 # processor for haml
 gem 'haml'
 
+# processor for css
+gem 'sass'
+
 # processor for markdown
 gem 'bluecloth'
 
