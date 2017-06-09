@@ -3,6 +3,7 @@ GEM
   specs:
     adsf (1.2.1)
       rack (>= 1.0.0)
+    bluecloth (2.2.0)
     coderay (1.1.1)
     colored (1.2)
     concurrent-ruby (1.0.5)
@@ -30,7 +31,6 @@ GEM
       tilt
     hamster (3.0.0)
       concurrent-ruby (~> 1.0)
-    kramdown (1.13.2)
     listen (3.1.5)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
@@ -67,9 +67,9 @@ PLATFORMS
 
 DEPENDENCIES
   adsf
+  bluecloth
   guard-nanoc
   haml
-  kramdown
   nanoc
 
 BUNDLED WITH

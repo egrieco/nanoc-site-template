@@ -9,7 +9,7 @@ end
 # is not bundled with Nanoc or Ruby.
 #
 compile '/**/*.md' do
- filter :kramdown
+ filter :bluecloth
  layout '/default.*'
 end
 

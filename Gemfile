@@ -7,7 +7,7 @@ gem 'nanoc'
 gem 'haml'
 
 # processor for markdown
-gem 'kramdown'
+gem 'bluecloth'
 
 # preview webserver for nanoc
 gem 'adsf'
